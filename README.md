@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Account Data Removal** PowerShell script is designed to automatically remove local user profiles from a Windows device based on membership in a designated local security group. The script also identifies and removes orphaned user profiles whose Security Identifiers (SIDs) can no longer be resolved.
+The **Account Data Removal** PowerShell script is designed to automatically remove local user profiles from a Windows device based on membership in a designated local security group. The script also identifies and removes orphaned user profiles whose Security Identifiers (SIDs) can no longer be resolved. This will not Remove the Account from Local Users and Groups. This just removes the Account from the Registry and the Accounts Local Data. 
 
 This script is intended for execution under the **LOCAL SYSTEM** account and is suitable for use with device management platforms such as Microsoft Intune, Configuration Manager, scheduled tasks, or other automated maintenance processes.
 
